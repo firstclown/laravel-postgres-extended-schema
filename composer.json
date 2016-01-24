@@ -1,13 +1,14 @@
 {
-  "name": "bosnadev/database",
-  "description": "Eloquent Extended, added some PostgreSql features",
+  "name": "phoenixgao/laravel-postgres-extended-schema",
+  "description": "Laravel database schema extended, added some PostgreSql features",
   "keywords": [
     "laravel",
     "eloquent",
     "database",
     "mysql",
     "postgresql",
-    "database"
+    "schema",
+    "blueprint"
   ],
   "authors": [
     {
@@ -17,6 +18,10 @@
     {
       "name": "Peter Haza",
       "email": "peter.haza@gmail.com"
+    },
+    {
+      "name": "Xiang Gao",
+      "email": "phoenix.x.gao@gmail.com"
     }
   ],
   "require": {

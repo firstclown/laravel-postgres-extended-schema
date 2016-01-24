@@ -49,5 +49,10 @@
       "tests/BaseTestCase.php"
     ]
   },
-  "minimum-stability": "stable"
+  "extra": {
+      "branch-alias": {
+          "dev-master": "master"
+      }
+  },
+  "minimum-stability": "dev"
 }

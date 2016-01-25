@@ -21,4 +21,15 @@ Laravel Postgres Extended Schema
 [link-code-quality]: https://scrutinizer-ci.com/g/phoenixgao/laravel-postgres-extended-schema
 [link-downloads]: https://packagist.org/packages/phoenixgao/laravel-postgres-extended-schema
 
-An extended PostgreSQL driver for Laravel 5 with support for some aditional PostgreSQL data types: hstore, uuid, geometric types (point, path, circle, line, polygon...)
+Forked from Bosnadev's original work https://github.com/Bosnadev/Database
+
+This library extends PostgreSQL driver for Laravel 5 with support for:
+
+### Additional PostgreSQL data types:
+* hstore
+* uuid
+* geometric types (point, path, circle, line, polygon...)
+* network address types
+
+### Table Inheritance
+

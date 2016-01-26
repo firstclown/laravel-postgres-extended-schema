@@ -23,6 +23,24 @@ Laravel Postgres Extended Schema
 
 Forked from Bosnadev's original work https://github.com/Bosnadev/Database
 
+## Installation
+
+`$ composer require phoenixgao/laravel-postgres-extended-schema`
+
+## Usage
+
+Add our service provider into `config/app.php`:
+
+```php
+<?php
+    ...
+    'providers' => [
+        ...
+        Bosnadev\Database\DatabaseServiceProvider::class,
+    ],
+    ...
+```
+
 This library extends PostgreSQL driver for Laravel 5 with support for:
 
 ### Additional PostgreSQL data types:
@@ -32,4 +50,3 @@ This library extends PostgreSQL driver for Laravel 5 with support for:
 * network address types
 
 ### Table Inheritance
-

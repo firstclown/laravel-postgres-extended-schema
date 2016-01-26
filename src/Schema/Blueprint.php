@@ -160,4 +160,16 @@ class Blueprint extends \Illuminate\Database\Schema\Blueprint
     {
         return $this->addColumn('daterange', $column);
     }
+
+    /**
+     * Create a new inet column on the table.
+     *
+     * @param $column
+     *
+     * @return \Illuminate\Support\Fluent
+     */
+    public function inet($column)
+    {
+        return $this->addColumn('inet', $column);
+    }
 }

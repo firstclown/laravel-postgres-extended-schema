@@ -126,6 +126,18 @@ class PostgresGrammar extends \Illuminate\Database\Schema\Grammars\PostgresGramm
     }
 
     /**
+     * Create the column definition for an inet type.
+     *
+     * @param Fluent $column
+     *
+     * @return string
+     */
+    protected function typeInet(Fluent $column)
+    {
+        return "inet";
+    }
+
+    /**
      * @param mixed $value
      * @return mixed|string
      */

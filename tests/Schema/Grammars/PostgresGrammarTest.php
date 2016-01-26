@@ -145,6 +145,20 @@ class PostgresGrammarBaseTest extends BaseTestCase
         $this->assertContains('add column "foo" daterange', $statements[0]);
     }
 
+    public function testAddingInet()
+    {
+        $blueprint = new Blueprint('test');
+        $blueprint->inet('foo');
+        $statements = $blueprint->toSql(
+            $this->getConnection(),
+            $this->getGrammar()
+        );
+
+        $this->assertEquals(1, count($statements));
+        $this->assertContains('alter table', $statements[0]);
+        $this->assertContains('add column "foo" inet', $statements[0]);
+    }
+
     /**
      * @return PostgresConnection
      */

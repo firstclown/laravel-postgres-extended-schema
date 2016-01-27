@@ -8,6 +8,9 @@ Laravel Postgres Extended Schema
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/44745055-5b03-4fc0-91d9-a428f34a0cbf/big.png)](https://insight.sensiolabs.com/projects/44745055-5b03-4fc0-91d9-a428f34a0cbf)
+
+
 [ico-version]: https://img.shields.io/packagist/v/phoenixgao/laravel-postgres-extended-schema.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/phoenixgao/laravel-postgres-extended-schema/master.svg?style=flat-square

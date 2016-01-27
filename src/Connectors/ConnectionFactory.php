@@ -1,9 +1,5 @@
 <?php namespace Bosnadev\Database\Connectors;
 
-use PDO;
-use Illuminate\Database\MySqlConnection;
-use Illuminate\Database\SQLiteConnection;
-use Illuminate\Database\SqlServerConnection;
 use Bosnadev\Database\PostgresConnection;
 
 /**
